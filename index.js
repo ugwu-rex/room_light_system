@@ -44,14 +44,6 @@ class RoomLight extends Light {
         }
 
     }
-
-    switchLight() {
-        super.switchLight()
-    }
-
-    showLightStatus(){
-        super.showLightStatus()
-    }
 }
 
 let room1 = new RoomLight(true)
